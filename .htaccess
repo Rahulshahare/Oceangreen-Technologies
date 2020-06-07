@@ -1,0 +1,7 @@
+RewriteEngine on
+ErrorDocument 404 https://developer.msginc.ml/error
+
+
+
+RewriteRule ^(error)/?$ index.php?page=$1 [L]
+RewriteRule ^(login)/?$ login.php [L]
